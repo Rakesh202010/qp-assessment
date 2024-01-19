@@ -60,7 +60,7 @@ DELETE /admin/removeItem?itemId=1
   "message": "Grocery item removed successfully"
 }
 ```
-### Update Grocery Item
+### 4. Update Grocery Item
 
 - **Endpoint:**
 PUT /admin/updateItem?itemId=1
@@ -81,7 +81,7 @@ PUT /admin/updateItem?itemId=1
   "message": "Grocery item updated successfully"
 }
 ```
-### Manage Inventory of Grocery Item
+### 5. Manage Inventory of Grocery Item
    
 - **Endpoint:**
 PUT /admin/manageInventory?itemId=1
@@ -102,7 +102,7 @@ PUT /admin/manageInventory?itemId=1
 
 
 ## User Endpoints
-### View Available Grocery Items
+### 1. View Available Grocery Items
    
 - **Endpoint:**
 GET /user/viewItems
@@ -122,7 +122,7 @@ GET /user/viewItems
   ]
 }
 ```
-### Book Multiple Grocery Items
+### 2. Book Multiple Grocery Items
 
 - **Endpoint:**
 POST /user/bookItems
